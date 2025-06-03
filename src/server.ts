@@ -2,7 +2,7 @@
 
 import fastify from 'fastify';
 
-const app = fastify() as any
+const app = fastify()
 
 app.get('/hello', () => {
   return 'Hello World'
